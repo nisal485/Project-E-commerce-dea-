@@ -1,50 +1,74 @@
+# Ecommerce Website
 
-                                 Group Members
+## About
 
-U.V.N.S.Mayuranga	28340	Bsc Software Engineering
-R.V.I,Rathnayake	28372	Bsc Management Information Systems
-M.T.M. Thilakarathna	28970	Bsc Computer Science(ugc)
-R.P.S.G.Madushanka	28551	Bsc Management Information Systems
-R.R.Chandrasekara	28735	Bsc Management Information Systems
-R.P.T.G.Madushanka	28547	Bsc Management Information Systems
-W.A.P.H.S.Warnasuriya	28788	Bsc Management Information Systems
-H.A.R. Dharmasena	28907	Bsc Management Information Systems
+This project is a simple e-commerce website powered by Java JSP Servlet. Ecommerce is a complex business. It involves
+many edge cases and a solid system architecture. This project is simply a demo demonstrating basic features which is
+only the tip of an iceberg. This project might (and certainly does) have bugs, vulnerabilities or some other types of
+issues. So, contributions are always welcome :)))
 
+## Features include
 
+```
+1. Login and Registration.
+2. Search and browse items.
+3. Add to cart.
+4. Manage shopping cart.
+5. Checkout.
+6. View orders history of sellers/customers.
+7. Update customer/product information.
+```
 
+## Screenshots
 
-Description of Project
+![alt text](https://github.com/truonghoangthuan/jsp-servlet-ecommerce-website/blob/master/screenshots/home.png?raw=true)
 
-Welcome to Shoppers, your one-stop destination for the latest trends in shoes, shirts, and frocks for men, women, and children! At Shoppers, we pride ourselves on offering a vast selection of high-quality apparel and footwear to suit every style and occasion.
+![alt text](https://github.com/truonghoangthuan/jsp-servlet-ecommerce-website/blob/master/screenshots/shop.png)
 
-Explore our extensive collection of shoes, ranging from sleek sneakers to elegant heels, designed to elevate your footwear game. Whether you're looking for casual everyday wear or statement pieces for special events, we've got you covered with brands that blend style and comfort seamlessly.
+![alt text](https://github.com/truonghoangthuan/jsp-servlet-ecommerce-website/blob/master/screenshots/cart.png)
 
-Dive into our assortment of shirts, featuring a diverse range of designs, colors, and fits to complement your personal aesthetic. From classic button-downs to trendy graphic tees, we have something for everyone, ensuring you stay effortlessly chic from day to night.
+## Prerequisites
 
-For the little ones, discover adorable frocks that combine fashion and fun, perfect for every playful adventure. Our children's collection showcases a variety of cute and comfortable styles that will keep them looking adorable while allowing them to move freely and comfortably.
+What things you need to install
 
-Powered by cutting-edge technology and user-friendly interfaces, our website is built using Java, JSP, Servlet, CSS, and HTML, ensuring a seamless shopping experience from browsing to checkout. With secure payment gateways and swift delivery services, shopping with us is convenient and hassle-free.
+```
+You need Tomcat server 8 or above installed.
+Locally installed MySQL or a MySQL server.
+Compatible IDE, Intellij IDEA recommended for this project.
+```
 
-Join the shoppers, community today and indulge in a world of fashion-forward choices for the whole family. Whether you're updating your wardrobe or shopping for loved ones, we're here to make every purchase a delightful experience. Shop now and step into style with shoppers!
+### Installing
 
-Project Requirements
+For MySQL Database
 
-User registration and authentication - All the users can create an account here.
-Admin can add products, users and approve accounts.
-Adding, updating, deleting product -- admin can add, update, and delete products and information.
-Manage cart. – admin can check, update, or delete product  information.
-Managing orders - customer can update, delete their perches and check their orders.
-View profile information - All customers can view and update profile information. Additionally, admin can view clients profile information.
-User management - Admin can view all the user’s details and admin can check, block or update user accounts.
+```
+SQL script can be found in the project folder.
+SQL script doesn't contain query to create schema, you will need to create one with name jsp-servlet-ecommerce-website.
+```
 
-User dashboards
+For Tomcat Application Server
 
-Only the admin can access the admin dashboard.
-Customer dashboard can be accessed by both Customer and the admin.
+```
+Use Tomcat 8.5.23 or above and compile to generate WAR file.
+```
 
+## Contributing
 
+If you want to contribute to this project you can email me - trhoangthuan@gmail.com or you can pull request.
 
+## Authors
 
+* **Truong Hoang Thuan** [Github](https://github.com/truonghoangthuan)
 
-            
+## Built With
 
+* [Java](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html) - Oracle Java 16 JDK
+* [MySQL](https://www.mysql.com/) - MySQL Database
+* [Connector/J](https://dev.mysql.com/downloads/connector/j/) - Connecting to MySQL Database Server
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [Shoppers - Free Bootstrap 4 HTML5 ecommerece website template](https://themewagon.com/themes/free-bootstrap-4-html5-ecommerece-website-template-shoppers/) - Website Front-end
+
+## License
+
+This project is licensed under the MIT License - see
+the [LICENSE.md](https://github.com/truonghoangthuan/jsp-servlet-ecommerce-website/blob/master/LICENSE) for details.
